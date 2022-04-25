@@ -1,0 +1,42 @@
+    nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 23px 0px;
+    
+  }
+  .navright{
+    display: flex;
+    margin-left: 500px;
+  }
+  .nav-item{
+    padding: px;
+  }
+  .categories{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-top: 6px;
+    width: 849px;
+    margin-left: 160px;
+    margin-bottom: 35px;
+  }
+  .blog{
+    height: auto;
+  }
+  p{
+    font-weight: bold;
+    margin-left: 168px;
+    margin-top:50px
+  }
+  .container-fluid{
+    margin-left: 150px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .navbar-toggler{
+    width: 55px;
+    height: 40px;
+  }

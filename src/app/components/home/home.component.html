@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+        </li>
+        <div class="navright">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['']" style="color: black;"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['favorites']"  style="color: #d5d5d5;"><i class="fa-solid fa-heart"></i>My Favorites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['profile']" style="color: #d5d5d5;"><i class="fa-solid fa-user"></i>Profile</a>
+        </li>
+       </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <p>Categories</p>
+
+<div class="categories">
+  <app-category-item *ngFor="let item of categories" [category]="item" (click)="selectItem(item)"></app-category-item>
+</div>
+<div class="article">
+  <app-blog-item  *ngFor="let item of blogs" [blog]="item" ></app-blog-item>
+  
+</div>

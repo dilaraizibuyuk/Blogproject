@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <form [formGroup]="registerForm" class="border border-secondary mt-4 p-4" style="width:450px"> -->
+        <div class="leftbar">
+        </div>
+        <form [formGroup]="registerForm" class="loginbar">
+            <h1>Register</h1>
+            <div class="icon">
+                <input type="email" formControlName="Email" placeholder="Email" style="margin-bottom: 15px;"><i
+                    class="fa-solid fa-envelope"></i>
+                <input type="password" formControlName="Password" placeholder="Password" style="margin-bottom: 15px;"><i
+                    class="fa-solid fa-lock"></i><i style="margin-left: 225px;" class="fa-solid fa-eye"></i>
+                <input type="password" formControlName="PasswordRetry" placeholder="Re-Password" style="margin-bottom: 25px;"><i
+                    class="fa-solid fa-lock"></i><i style="margin-left: 225px;" class="fa-solid fa-eye"></i>
+            </div>
+            <button class="rgstr" (click)="onRegister()">Register<i class="fa-solid fa-right-to-bracket"></i></button>
+            <button class="bck" routerLink="/login">Back<i class="fa-solid fa-angle-left"></i></button>
+        </form>
+        <!-- </form> -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.leftbar{
+    background-color: #e3e6ea;
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.loginbar{
+    background-color: #fff;
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+  @media only screen and (max-width: 950px) {
+    .leftbar{
+      display: none;
+    }
+    .loginbar{
+        width: 350px;
+        margin-left: 160px;
+    }
+    h1{
+      display: none;
+    }
+    input[type="email"]{
+      margin-top: 130px !important;
+    }
+    
+    .icon>i{
+      margin-left: -264px;
+      color: #e3e6ea;
+    }
+  }
+
+  input[type="email"]{
+    margin-top: 40px;
+  }
+  input{
+      width: 80% ;
+      border: 1px solid #e3e6ea ;
+      margin-left: 35px;
+      padding-left: 50px !important;
+
+  }
+  h1{
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  input,button{
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;
+  }
+  button{
+      width: 85%;
+      border: 1px solid #292f3b ;
+      margin-left: 25px;
+
+  }
+  .lgn{
+    background-color: #292f3b;
+    color: #fff;
+    margin-bottom: 13px;
+  }
+  .rgstr{
+    color: #292f3b;
+    background-color: #fff;
+  }
+  button>i{
+    float: left;
+    margin-top: 5px;
+  }
+  .icon>i{
+    margin-left: -264px;
+    color: #e3e6ea;
+  }
+  

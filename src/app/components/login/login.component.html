@@ -1,0 +1,17 @@
+    <div class="container">
+        <div class="leftbar">
+
+        </div>
+        <form [formGroup]="loginForm" class="loginbar">
+            <h1>Login</h1>
+            <div class="icon">
+                <input type="email" formControlName="Email" placeholder="Email" style="margin-bottom: 15px;"><i
+                    class="fa-solid fa-envelope"></i>
+                <input type="password" formControlName="Password" placeholder="Password" style="margin-bottom: 25px;"><i
+                    class="fa-solid fa-lock"></i><i style="margin-left: 225px;" class="fa-solid fa-eye"></i>
+            </div>
+            <button class="lgn" (click)="onSubmit()">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+            <button class="rgstr" routerLink="/register">Register <i class="fa-solid fa-right-to-bracket"></i></button>
+        </form>
+
+    </div>

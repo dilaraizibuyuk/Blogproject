@@ -1,0 +1,81 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 23px 0px;
+    
+  }
+  .navright{
+    display: flex;
+    margin-left: 500px;
+  }
+  .container-fluid{
+    margin-left: 150px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .box{
+      width: 76%;
+      margin-left: 127px;
+      height: 64vh;
+      padding-top: 20px;
+      padding-left: 80px;
+  }
+  .profile{
+      background-color: #d5d5d5;
+      width: 234px;
+      height: 234px;
+      border-radius: 120px;
+      margin-top: 50px;
+
+  }
+  .location{
+    background-color: rgb(46, 69, 88);
+    width: 540px;
+    height: 234px;
+    margin-top: -232px;
+    margin-left: 253px;
+    border-radius: 15px;
+  }
+ 
+  button{
+    width: 250px;
+    border: 1px solid #292f3b ;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+
+  }
+  .logout{
+    background-color: #292f3b;
+    color: #fff;
+    margin-bottom: 13px;
+    margin-left: 38px;  
+
+  }
+  .save{
+    color: #292f3b;
+    background-color: #fff;
+    margin-left: 85px;  
+
+  }
+  button>i{
+    float: left;
+    margin-top: 5px;
+  }
+  .buttons{
+      margin-top: 15px;
+      margin-left: 172px;
+  }
+  .profile>i{
+      margin-top: 190px;
+      margin-left: 110px;
+      font-size: 22px;
+  }
+  p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+  }

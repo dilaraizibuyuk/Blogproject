@@ -1,0 +1,7 @@
+<div class="article">
+   <i [class]="favorite?'fa fa-heart':'fa fa-heart-o'" aria-hidden="true" (click)="toggleFavorite()"></i>
+    <img [src]="blog.Image" alt="">
+    <h5>{{blog.Title}}</h5>
+    <p [innerHtml]="blog.Content"></p>
+    <button (click)="goToDetail()"> Detail</button>
+</div>

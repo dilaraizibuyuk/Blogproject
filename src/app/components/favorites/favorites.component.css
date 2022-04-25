@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 23px 0px;
+    
+  }
+  .navright{
+    display: flex;
+    margin-left: 500px;
+  }
+  .container-fluid{
+    margin-left: 150px;
+  }
+
+
+  .fav{      
+    height: 550px;
+    width: 849px;
+    margin-left: 160px;
+    margin-top: 38px;
+    display: flex;
+  }

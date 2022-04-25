@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 23px 0px;
+    
+  }
+  .navright{
+    display: flex;
+    margin-left: 500px;
+  }
+  .container-fluid{
+    margin-left: 150px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .blogdetail{
+    background-color: aqua;
+    margin-left: 210px;
+    width: 1000px;
+    height: 100vh;
+    margin-top: 40px;
+  }
+  .article{
+    width: 773px;
+    height: auto;
+    margin-left: 250px;
+    padding: 50px;
+  }
+  img{
+    width: auto;
+    height: auto; 
+    padding-bottom: 30px;
+   }
